@@ -1,8 +1,17 @@
-function App() {
-  console.log("Hello from the component");
+const Hello =  (props) => {
   return (
     <div>
-       <p>Hello World!</p>
+      <p>Hello {props.name}</p>
+    </div>
+  )
+}
+
+function App() {
+  return (
+    <div>
+       <p>Greetings</p>
+       <Hello name="Fortune"/>
+       <Hello name="Mary"/>
     </div>
   );
 }
