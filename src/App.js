@@ -11,7 +11,7 @@ function App() {
     <div>
        <p>Greetings</p>
        <Hello name="Fortune"/>
-       <Hello name="Mary"/>
+       <Hello name="Marry"/>
     </div>
   );
 }
